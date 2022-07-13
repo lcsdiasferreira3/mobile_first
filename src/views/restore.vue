@@ -1,27 +1,29 @@
 <template>
   <div class="general">
-    <div class="section1 white--text">
-      Confira os melhores preços para adquirir sua Ferrari!
+    <div class="section1">
+      <strong><center>Escolha seu Restaurador!</center></strong>
     </div>
 
     <center>
       <div class="section2">
         <img
           class="image"
-          src="https://quatrorodas.abril.com.br/wp-content/uploads/2017/06/568bd98882bee174ca3f64f8ferrari-488-gtb1-e1586981053354.jpeg?quality=70&strip=info"
+          src="https://i2.wp.com/blog.mundomidia.com/wp-content/uploads/2018/06/como-contratar-um-bom-mecanico.jpg?resize=696%2C696&ssl=1"
         />
       </div>
     </center>
 
     <div class="section3">
       <div class="section3-1 text-center">
-        Realizamos também concertos, manutenções, restaurações e tudo que sua
-        Ferrari precisar!
+        <img
+          class="image"
+          src="https://contagemmotorpecas.com.br/blog/wp-content/uploads/sites/3/2019/07/mec.jpg"
+        />
       </div>
       <div class="section3-2">
         <img
           class="image"
-          src="https://i.pinimg.com/736x/72/40/56/724056131b836cfe63ae7df8190e3ad3.jpg"
+          src="https://st2.depositphotos.com/1158045/5432/i/600/depositphotos_54320635-stock-photo-mechanic-working-on-car-engine.jpg"
         />
       </div>
     </div>
@@ -29,19 +31,19 @@
       <div class="section4">
         <img
           class="image"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkaUtx9BlyS8eDLA-NZs9EaTxvtRCRk1SEA2mqy8eEUmRM7TKcec1os8XSdkmYaI8gDg&usqp=CAU"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdi30ENuWXY-cYKIq3USCOKLuphLnGuPVFw&usqp=CAU"
         />
       </div>
 
       <div class="section5">
         <img
           class="image"
-          src="https://ag-spots-2020.o.auroraobjects.eu/2020/08/27/ferrari-dino-246-gt-c584327082020185832_2.jpg"
+          src="https://www.centersystem.com.br/wp-content/uploads/2021/02/happy-mechanic-standing-by-car-1200x675.jpg"
         />
       </div>
     </div>
     <div class="section6 white--text text-center">
-      Trabalhamos Incansavelmente para que seu carro fique impecavél!
+      Temos os melhores restauradores do Brasil!
     </div>
   </div>
 </template>
@@ -64,11 +66,12 @@ export default {
 .section1 {
   width: 100%;
   height: 100px;
-  background-color: rgb(11, 11, 11);
+  background-color: rgb(166, 255, 0);
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 30px;
 }
 .section2 {
   width: 310px;
@@ -80,30 +83,29 @@ export default {
   width: 100%;
   height: 120px;
   margin-top: 10px;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .section3-1 {
-  width: 50%;
+  width: 49%;
   height: 100%;
 }
 
 .section3-2 {
-  width: 50%;
+  width: 49%;
   height: 100%;
 }
 
 .section4 {
-  width: 45%;
+  width: 49%;
   height: 100px;
   margin-top: 10px;
   background-color: red;
 }
 
 .section5 {
-  width: 45%;
+  width: 49%;
   height: 100px;
   margin-top: 10px;
   background-color: red;

@@ -1,27 +1,27 @@
 <template>
   <div class="general">
-    <div class="section1 white--text">
-      Confira os melhores preços para adquirir sua Ferrari!
-    </div>
+    <div class="section1"><strong>Compre sua Ferrari!</strong></div>
 
     <center>
       <div class="section2">
         <img
           class="image"
-          src="https://quatrorodas.abril.com.br/wp-content/uploads/2017/06/568bd98882bee174ca3f64f8ferrari-488-gtb1-e1586981053354.jpeg?quality=70&strip=info"
+          src="https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2022/01/ferrari-418x235.jpg"
         />
       </div>
     </center>
 
     <div class="section3">
       <div class="section3-1 text-center">
-        Realizamos também concertos, manutenções, restaurações e tudo que sua
-        Ferrari precisar!
+        <img
+          class="image"
+          src="https://www.slashgear.com/img/gallery/one-of-the-rarest-ferraris-ever-is-now-up-for-sale/l-intro-1656446623.jpg"
+        />
       </div>
       <div class="section3-2">
         <img
           class="image"
-          src="https://i.pinimg.com/736x/72/40/56/724056131b836cfe63ae7df8190e3ad3.jpg"
+          src="https://cdn.adtechpanda.com/2f06126c-146b-41ef-9e9b-3387766a65a4/-/stretch/off/-/preview/1024x1024/-/format/jpeg/-/quality/lightest/"
         />
       </div>
     </div>
@@ -29,7 +29,7 @@
       <div class="section4">
         <img
           class="image"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkaUtx9BlyS8eDLA-NZs9EaTxvtRCRk1SEA2mqy8eEUmRM7TKcec1os8XSdkmYaI8gDg&usqp=CAU"
+          src="https://s2.glbimg.com/iKe3or6-VH1E5ffJwyZIH_v4DVw=/0x0:620x300/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/I/5/CJH13gSBWx9RlmZEtFAQ/2019-03-30-f-2.jpg"
         />
       </div>
 
@@ -40,9 +40,7 @@
         />
       </div>
     </div>
-    <div class="section6 white--text text-center">
-      Trabalhamos Incansavelmente para que seu carro fique impecavél!
-    </div>
+    <div class="section6 white--text text-center">Escolha e seja Feliz!</div>
   </div>
 </template>
 
@@ -64,11 +62,12 @@ export default {
 .section1 {
   width: 100%;
   height: 100px;
-  background-color: rgb(11, 11, 11);
+  background-color: rgb(255, 234, 0);
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 35px;
 }
 .section2 {
   width: 310px;
@@ -80,30 +79,29 @@ export default {
   width: 100%;
   height: 120px;
   margin-top: 10px;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .section3-1 {
-  width: 50%;
+  width: 49%;
   height: 100%;
 }
 
 .section3-2 {
-  width: 50%;
+  width: 49%;
   height: 100%;
 }
 
 .section4 {
-  width: 45%;
+  width: 49%;
   height: 100px;
   margin-top: 10px;
   background-color: red;
 }
 
 .section5 {
-  width: 45%;
+  width: 49%;
   height: 100px;
   margin-top: 10px;
   background-color: red;

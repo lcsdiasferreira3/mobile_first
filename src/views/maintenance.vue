@@ -1,27 +1,31 @@
 <template>
   <div class="general">
-    <div class="section1 white--text">
-      Confira os melhores preços para adquirir sua Ferrari!
+    <div class="section1">
+      <strong
+        ><center>Escolha a Loja para restaurar sua Ferrari!</center></strong
+      >
     </div>
 
     <center>
       <div class="section2">
         <img
           class="image"
-          src="https://quatrorodas.abril.com.br/wp-content/uploads/2017/06/568bd98882bee174ca3f64f8ferrari-488-gtb1-e1586981053354.jpeg?quality=70&strip=info"
+          src="https://st3.depositphotos.com/34890602/37743/i/1600/depositphotos_377430800-stock-photo-inside-the-workshop-large-workbench.jpg"
         />
       </div>
     </center>
 
     <div class="section3">
       <div class="section3-1 text-center">
-        Realizamos também concertos, manutenções, restaurações e tudo que sua
-        Ferrari precisar!
+        <img
+          class="image"
+          src="https://cdn.pixabay.com/photo/2016/10/06/19/50/workshop-1719872_960_720.jpg"
+        />
       </div>
       <div class="section3-2">
         <img
           class="image"
-          src="https://i.pinimg.com/736x/72/40/56/724056131b836cfe63ae7df8190e3ad3.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsr8NJaTiTWhF5ROj-_tS62W6LC25JvabJGQ&usqp=CAU"
         />
       </div>
     </div>
@@ -29,20 +33,18 @@
       <div class="section4">
         <img
           class="image"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkaUtx9BlyS8eDLA-NZs9EaTxvtRCRk1SEA2mqy8eEUmRM7TKcec1os8XSdkmYaI8gDg&usqp=CAU"
+          src="https://i.ytimg.com/vi/mMgIPdzsz5M/maxresdefault.jpg"
         />
       </div>
 
       <div class="section5">
         <img
           class="image"
-          src="https://ag-spots-2020.o.auroraobjects.eu/2020/08/27/ferrari-dino-246-gt-c584327082020185832_2.jpg"
+          src="https://st3.depositphotos.com/8536802/14548/i/1600/depositphotos_145484439-stock-photo-car-preparing-for-repairing-garage.jpg"
         />
       </div>
     </div>
-    <div class="section6 white--text text-center">
-      Trabalhamos Incansavelmente para que seu carro fique impecavél!
-    </div>
+    <div class="section6 white--text text-center">Escolha e fique Feliz!</div>
   </div>
 </template>
 
@@ -64,11 +66,12 @@ export default {
 .section1 {
   width: 100%;
   height: 100px;
-  background-color: rgb(11, 11, 11);
+  background-color: rgb(255, 166, 0);
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 25px;
 }
 .section2 {
   width: 310px;
@@ -80,30 +83,29 @@ export default {
   width: 100%;
   height: 120px;
   margin-top: 10px;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .section3-1 {
-  width: 50%;
+  width: 49%;
   height: 100%;
 }
 
 .section3-2 {
-  width: 50%;
+  width: 49%;
   height: 100%;
 }
 
 .section4 {
-  width: 45%;
+  width: 49%;
   height: 100px;
   margin-top: 10px;
   background-color: red;
 }
 
 .section5 {
-  width: 45%;
+  width: 49%;
   height: 100px;
   margin-top: 10px;
   background-color: red;
